@@ -1,0 +1,47 @@
+# Build directories
+build/
+bin/
+lib/
+
+# Compiled objects
+*.o
+*.so
+*.a
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# MacOS
+.DS_Store
+
+# Models (too large for git)
+*.dfp
+*.onnx
+*.h5
+*.pb
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated executables
+yolov8_object_detection
+face_recognition
+mx3face
